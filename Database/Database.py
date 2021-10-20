@@ -1,4 +1,4 @@
-# (c) PR0FESS0R-99
+# (c) DEVIL HACKER
 
 import datetime
 
