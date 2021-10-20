@@ -188,7 +188,7 @@ SORRY, 𝐍𝐨 𝐌𝐨𝐯𝐢𝐞/𝐒𝐞𝐫𝐢𝐞𝐬
         if poster:
             await message.reply_photo(photo=poster, caption=result_txt, reply_markup=InlineKeyboardMarkup(buttons))
         else:
-            await message.reply_text(result_txt, reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_text(mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
 
     
 def get_size(size):
