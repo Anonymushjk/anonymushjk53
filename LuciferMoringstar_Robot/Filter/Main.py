@@ -53,7 +53,7 @@ async def filter(client, message):
     if 2 < len(message.text) < 100:    
         btn = []
         search = message.text
-        mo_tech_yt = f"**🗂️ Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**📤 Uploaded by {message.chat.title}**"
+        mo_tech_yt = f"✨ 𝐋𝐢𝐧𝐤𝐬 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐘 @SonalModdingGod ✨ 𝐅𝐨𝐮𝐧𝐝𝐞𝐝 𝐑𝐞𝐬𝐮𝐥𝐭𝐬 𝐅𝐨𝐫 𝐘𝐨𝐮𝐫 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 🤗"
         files = await get_filter_results(query=search)
         if files:
             for file in files:
@@ -79,7 +79,7 @@ async def filter(client, message):
         else:
             buttons = btn
             buttons.append(
-                [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
+                [InlineKeyboardButton(text="♻️ Pages 1/1",callback_data="pages")]
             )
             poster=None
             if API_KEY:
@@ -98,7 +98,7 @@ async def filter(client, message):
             [InlineKeyboardButton(text="NEXT ⏩",callback_data=f"next_0_{keyword}")]
         )    
         buttons.append(
-            [InlineKeyboardButton(text=f"📃 Pages 1/{data['total']}",callback_data="pages")]
+            [InlineKeyboardButton(text=f"♻️ Pages 1/{data['total']}",callback_data="pages")]
         )
         poster=None
         if API_KEY:
@@ -115,7 +115,7 @@ async def group(client, message):
     if 2 < len(message.text) < 50:    
         btn = []
         search = message.text
-        mo_tech_yt = f"**🗂️ Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**📤 Uploaded by {message.chat.title}**"
+        mo_tech_yt = f"✨ 𝐋𝐢𝐧𝐤𝐬 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐘 @SonalModdingGod ✨ 𝐅𝐨𝐮𝐧𝐝𝐞𝐝 𝐑𝐞𝐬𝐮𝐥𝐭𝐬 𝐅𝐨𝐫 𝐘𝐨𝐮𝐫 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 🤗"
         nyva=BOT.get("username")
         if not nyva:
             botusername=await client.get_me()
@@ -130,6 +130,18 @@ async def group(client, message):
                     [InlineKeyboardButton(text=f"{filename}", url=f"https://telegram.dog/{nyva}?start=pr0fess0r_99_-_-_-_{file_id}")]
                 )
         else:
+            LuciferMoringstar=await client.send_message(
+            chat_id = message.chat.id,
+            text=f"""
+👋Hello {message.from_user.mention} 
+𝘗𝘭𝘦𝘢𝘴𝘦 𝘚𝘦𝘯𝘥 𝘌𝘹𝘢𝘤𝘵 𝘕𝘢𝘮𝘦 𝘈𝘯𝘥 𝘚𝘦𝘯𝘥 𝘖𝘯𝘭𝘺 𝘔𝘰𝘷𝘪𝘦 𝘕𝘢𝘮𝘦,
+𝘋𝘰𝘯'𝘵 𝘈𝘥𝘥 𝘌𝘹𝘵𝘳𝘢 𝘞𝘰𝘳𝘥𝘴 😤 𝐆𝐨 𝐎𝐧 👉 Google 👈 𝐀𝐧𝐝 𝐂𝐨𝐩𝐲 𝐏𝐚𝐬𝐭𝐞 𝐇𝐞𝐫𝐞 🤦🤦
+𝘈𝘯𝘥 𝘗𝘭𝘦𝘢𝘴𝘦 𝘈𝘥𝘥 𝘚𝘰𝘮𝘦 𝘔𝘦𝘮𝘣𝘦𝘳𝘴 𝘉𝘦𝘤𝘢𝘶𝘴𝘦 𝘖𝘶𝘳 𝘖𝘭𝘥 𝘔𝘰𝘷𝘪𝘦 𝘎𝘳𝘰𝘶𝘱 𝘞𝘢𝘴 𝘉𝘢𝘯𝘯𝘦𝘥 🥺
+--𝐃𝐞𝐚𝐫 𝐒𝐢𝐫 𝐌𝐨𝐯𝐢𝐞 𝐊𝐚 𝐒𝐚𝐡𝐢 𝐍𝐚𝐦𝐞 𝐃𝐚𝐥𝐢𝐲𝐞,
+𝐆𝐨𝐨𝐠𝐥𝐞 𝐏𝐚𝐫 𝐉𝐚𝐲𝐞 𝐎𝐫 𝐌𝐨𝐯𝐢𝐞 𝐊𝐚𝐚 𝐒𝐚𝐡𝐢 𝐍𝐚𝐦𝐞 𝐂𝐨𝐩𝐲 𝐤𝐚𝐫𝐤𝐞 𝐘𝐚𝐡𝐚 𝐏𝐚𝐬𝐭𝐞 𝐊𝐢𝐣𝐢𝐲𝐞🙂""",
+            parse_mode="html",
+            reply_to_message_id=message.message_id
+        )
             return
         if not btn:
             return
@@ -144,7 +156,7 @@ async def group(client, message):
         else:
             buttons = btn
             buttons.append(
-                [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
+                [InlineKeyboardButton(text="♻️ Pages 1/1",callback_data="pages")]
             )
             poster=None
             if API_KEY:
@@ -162,7 +174,7 @@ async def group(client, message):
             [InlineKeyboardButton(text="NEXT ⏩",callback_data=f"next_0_{keyword}")]
         )    
         buttons.append(
-            [InlineKeyboardButton(text=f"📃 Pages 1/{data['total']}",callback_data="pages")]
+            [InlineKeyboardButton(text=f"♻️ Pages 1/{data['total']}",callback_data="pages")]
         )
         poster=None
         if API_KEY:
@@ -215,7 +227,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     [InlineKeyboardButton("⏪ BACK", callback_data=f"back_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages")]
+                    [InlineKeyboardButton(f"♻️ Pages {int(index)+2}/{data['total']}", callback_data="pages")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -229,7 +241,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     [InlineKeyboardButton("⏪ BACK", callback_data=f"back_{int(index)+1}_{keyword}"),InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages")]
+                    [InlineKeyboardButton(f"♻️ Pages {int(index)+2}/{data['total']}", callback_data="pages")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -253,7 +265,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     [InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages")]
+                    [InlineKeyboardButton(f"♻️ Pages {int(index)}/{data['total']}", callback_data="pages")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -267,7 +279,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     [InlineKeyboardButton("⏪ BACK", callback_data=f"back_{int(index)-1}_{keyword}"),InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages")]
+                    [InlineKeyboardButton(f"♻️ Pages {int(index)}/{data['total']}", callback_data="pages")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -277,8 +289,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='t.me/Mo_Tech_YT'),
-                    InlineKeyboardButton('Source Code', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('⚜️ 𝐌𝐎𝐕𝐈𝐄𝐒 ⚜️', url='t.me/SonalModdingGod'),
+                    InlineKeyboardButton('🥰𝐂𝐇𝐀𝐓𝐓𝐈𝐍𝐆😘', url=f't.me/JaiHindChatting')
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -286,8 +298,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='t.me/Mo_Tech_YT'),
-                    InlineKeyboardButton('Source Code', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('⚜️ 𝐌𝐎𝐕𝐈𝐄𝐒 ⚜️', url='t.me/SonalModdingGod'),
+                    InlineKeyboardButton('🥰𝐂𝐇𝐀𝐓𝐓𝐈𝐍𝐆😘', url=f't.me/JaiHindChatting')
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -310,7 +322,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('⭕ 𝐉𝐎𝐈𝐍 𝐌𝐀𝐈𝐍 𝐆𝐑𝐎𝐔𝐏 ⭕', url=f't.me/SonalModdingGod')
                     ]
                     ]
                 
@@ -341,7 +353,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('⭕ 𝐉𝐎𝐈𝐍 𝐌𝐀𝐈𝐍 𝐆𝐑𝐎𝐔𝐏 ⭕', url=f't.me/SonalModdingGod')
                     ]
                     ]
                 
@@ -357,4 +369,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
+        await query.answer("Isn't it a little more interesting?👀",show_alert=True)
