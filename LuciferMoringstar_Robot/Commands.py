@@ -84,10 +84,10 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('⭕𝐉𝐎𝐈𝐍 𝐌𝐀𝐈𝐍 𝐆𝐑𝐎𝐔𝐏⭕', url=f't.me/SonalModdingGod')
                     ],
                     [
-                        InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
+                        InlineKeyboardButton('🔍𝐒𝐄𝐀𝐑𝐂𝐇 𝐇𝐄𝐑𝐄 𝐌𝐎𝐕𝐈𝐄𝐒🔎', switch_inline_query_current_chat='')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -118,11 +118,11 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                InlineKeyboardButton("More Botz", url="https://t.me/MT_Botz")
+                InlineKeyboardButton("🔎𝐒𝐞𝐚𝐫𝐜𝐡 𝐇𝐞𝐫𝐞", switch_inline_query_current_chat=''),
+                InlineKeyboardButton("𝐌𝐎𝐕𝐈𝐄𝐒", url="t.me/SonalModdingGod")
                 ],[
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
+                InlineKeyboardButton("🤔Help", callback_data="help"),
+                InlineKeyboardButton("About🤠", callback_data="about")
                 ]]
             )
         )
@@ -334,8 +334,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('More Botz', url='https://t.me/MT_Botz'),
-            InlineKeyboardButton('Video', url=f'{TUTORIAL}')
+            InlineKeyboardButton('⚜️ 𝐌𝐎𝐕𝐈𝐄𝐒 ⚜️', url='t.me/SonalModdingGod'),
+            InlineKeyboardButton('🥰𝐂𝐇𝐀𝐓𝐓𝐈𝐍𝐆😘', url=f't.me/JaiHindChatting')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
