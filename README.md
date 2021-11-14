@@ -7,16 +7,16 @@ CUSTOM_FILE_CAPTION
 ```
 <code>{file_name}</code>
 <b>🤭 All Movies Here 
-👉[@SonalModdingGod](https://t.me/SonalModdingGod)</b>
+👉[@s3movieshd3request](https://t.me/s3movieshd3request)</b>
 ```
 
 START_MSG
 
 ```
-****Hi, I'm 😈𓆩𝕯𝖊𝖛𝖎𝖑 𝕳𝖆𝖈𝖐𝖊𝖗𓆪😈 Bot....😉
+****Hi, I'm 😈×͜×Anonͥℽmͣoͫu𝕤 ༒😈 Bot....😉
 
 You can't Add me to your Group 🔥🔥😝
 
 For More Details Click Help Button Below..
-@SonalModdingGod***
+@s3movieshd3request***
 ```
