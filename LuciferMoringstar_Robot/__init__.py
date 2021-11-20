@@ -27,17 +27,16 @@ HELP = """
 ➥ /logger  Get Logs
 ➥ /delete Delete File From Database
 
-<b>[⭕ 𝐉𝐎𝐈𝐍 𝐌𝐎𝐕𝐈𝐄 𝐆𝐑𝐎𝐔𝐏 ⭕](https://t.me/SonalModdingGod)
+<b>[⭕ 𝐉𝐎𝐈𝐍 𝐌𝐎𝐕𝐈𝐄 𝐆𝐑𝐎𝐔𝐏 ⭕](https://t.me/s3movieshd3request)
 
-@SonalModdingGod></b>
+@s3movieshd3request></b>
 """
 
 ABOUT = """
 ➥ Name : Sabkaa Baap 🙂
     
-➥ Creator : [@SonalModdingGod](t.me/SonalModdingGod)
+➥ Creator : [@anonymus_hjk](t.me/anonymous_hjk)
 ➥ Language : Python3
 ➥ Library : Pyrogram Asyncio 1.13.0
-➥ Source Code : [Click Me](https://t.me/JaiHindChatting)
 """
 
