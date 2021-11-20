@@ -84,7 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('⭕𝐉𝐎𝐈𝐍 𝐌𝐀𝐈𝐍 𝐆𝐑𝐎𝐔𝐏⭕', url=f't.me/SonalModdingGod')
+                        InlineKeyboardButton('⭕𝐉𝐎𝐈𝐍 𝐌𝐀𝐈𝐍 𝐆𝐑𝐎𝐔𝐏⭕', url=f't.me/s3movieshd3request')
                     ],
                     [
                         InlineKeyboardButton('🔍𝐒𝐄𝐀𝐑𝐂𝐇 𝐇𝐄𝐑𝐄 𝐌𝐎𝐕𝐈𝐄𝐒🔎', switch_inline_query_current_chat='')
@@ -119,7 +119,7 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [[
                 InlineKeyboardButton("🔎𝐒𝐞𝐚𝐫𝐜𝐡 𝐇𝐞𝐫𝐞", switch_inline_query_current_chat=''),
-                InlineKeyboardButton("𝐌𝐎𝐕𝐈𝐄𝐒", url="t.me/SonalModdingGod")
+                InlineKeyboardButton("𝐌𝐎𝐕𝐈𝐄𝐒", url="t.me/s3movieshd3request")
                 ],[
                 InlineKeyboardButton("🤔Help", callback_data="help"),
                 InlineKeyboardButton("About🤠", callback_data="about")
@@ -334,8 +334,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('⚜️ 𝐌𝐎𝐕𝐈𝐄𝐒 ⚜️', url='t.me/SonalModdingGod'),
-            InlineKeyboardButton('🥰𝐂𝐇𝐀𝐓𝐓𝐈𝐍𝐆😘', url=f't.me/JaiHindChatting')
+            InlineKeyboardButton('⚜️ 𝐌𝐎𝐕𝐈𝐄𝐒 ⚜️', url='t.me/s3movieshd3request'),
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
