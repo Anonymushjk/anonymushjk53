@@ -1,4 +1,4 @@
-# (c) DEVIL HACKER
+
 from Config import AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, API_KEY, AUTH_GROUPS, TUTORIAL
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram import Client, filters
@@ -53,7 +53,7 @@ async def filter(client, message):
     if 2 < len(message.text) < 100:    
         btn = []
         search = message.text
-        mo_tech_yt = f"✨ 𝐋𝐢𝐧𝐤𝐬 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐘 @SonalModdingGod ✨ 𝐅𝐨𝐮𝐧𝐝𝐞𝐝 𝐑𝐞𝐬𝐮𝐥𝐭𝐬 𝐅𝐨𝐫 𝐘𝐨𝐮𝐫 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 🤗"
+        mo_tech_yt = f"✨ 𝐋𝐢𝐧𝐤𝐬 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐘 @s3movieshd3request ✨ 𝐅𝐨𝐮𝐧𝐝𝐞𝐝 𝐑𝐞𝐬𝐮𝐥𝐭𝐬 𝐅𝐨𝐫 𝐘𝐨𝐮𝐫 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 🤗"
         files = await get_filter_results(query=search)
         if files:
             for file in files:
@@ -115,7 +115,7 @@ async def group(client, message):
     if 2 < len(message.text) < 50:    
         btn = []
         search = message.text
-        mo_tech_yt = f"✨ 𝐋𝐢𝐧𝐤𝐬 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐘 @SonalModdingGod ✨ 𝐅𝐨𝐮𝐧𝐝𝐞𝐝 𝐑𝐞𝐬𝐮𝐥𝐭𝐬 𝐅𝐨𝐫 𝐘𝐨𝐮𝐫 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 🤗"
+        mo_tech_yt = f"✨ 𝐋𝐢𝐧𝐤𝐬 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐘 @s3movieshd3request ✨ 𝐅𝐨𝐮𝐧𝐝𝐞𝐝 𝐑𝐞𝐬𝐮𝐥𝐭𝐬 𝐅𝐨𝐫 𝐘𝐨𝐮𝐫 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 🤗"
         nyva=BOT.get("username")
         if not nyva:
             botusername=await client.get_me()
@@ -130,7 +130,7 @@ async def group(client, message):
                     [InlineKeyboardButton(text=f"{filename}", url=f"https://telegram.dog/{nyva}?start=pr0fess0r_99_-_-_-_{file_id}")]
                 )
         else:
-            LuciferMoringstar=await client.send_message(
+            Anonymoushacker=await client.send_message(
             chat_id = message.chat.id,
             text=f"""
 👋Hello {message.from_user.mention} 
@@ -140,11 +140,11 @@ SORRY, 𝐍𝐨 𝐌𝐨𝐯𝐢𝐞/𝐒𝐞𝐫𝐢𝐞𝐬
 𝐖𝐨𝐫𝐝 𝐖𝐚𝐬 𝐅𝐨𝐮𝐧𝐝 🥺
 𝙿𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝙲𝚊𝚞𝚜𝚎𝚜 : 🤔
 
-⭕️ 𝐍𝐨𝐭 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐝 𝐘𝐞𝐭
+⚠️ 𝐍𝐨𝐭 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐝 𝐘𝐞𝐭
 
-⭕️ 𝐈𝐧𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠
+⚠️ 𝐈𝐧𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠
 
-⭕ 𝐍𝐨𝐭 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 𝐎𝐰𝐧𝐞𝐫""",
+⚠️ 𝐍𝐨𝐭 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 𝐎𝐰𝐧𝐞𝐫""",
             parse_mode="html",
             reply_to_message_id=message.message_id
         )
@@ -295,8 +295,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [
                 [
-                    InlineKeyboardButton('⚜️ 𝐌𝐎𝐕𝐈𝐄𝐒 ⚜️', url='t.me/SonalModdingGod'),
-                    InlineKeyboardButton('🥰𝐂𝐇𝐀𝐓𝐓𝐈𝐍𝐆😘', url=f't.me/JaiHindChatting')
+                    InlineKeyboardButton('⚜️ 𝐌𝐎𝐕𝐈𝐄𝐒 ⚜️', url='t.me/s3movieshd3request'),
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -304,8 +303,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('⚜️ 𝐌𝐎𝐕𝐈𝐄𝐒 ⚜️', url='t.me/SonalModdingGod'),
-                    InlineKeyboardButton('🥰𝐂𝐇𝐀𝐓𝐓𝐈𝐍𝐆😘', url=f't.me/JaiHindChatting')
+                    InlineKeyboardButton('⚜️ 𝐌𝐎𝐕𝐈𝐄𝐒 ⚜️', url='t.me/s3movieshd3request'),
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -328,7 +326,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('⭕ 𝐉𝐎𝐈𝐍 𝐌𝐀𝐈𝐍 𝐆𝐑𝐎𝐔𝐏 ⭕', url=f't.me/SonalModdingGod')
+                        InlineKeyboardButton('⛔ 𝐉𝐎𝐈𝐍 𝐌𝐀𝐈𝐍 𝐆𝐑𝐎𝐔𝐏 ⛔', url=f't.me/s3movieshd3request')
                     ]
                     ]
                 
@@ -359,7 +357,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('⭕ 𝐉𝐎𝐈𝐍 𝐌𝐀𝐈𝐍 𝐆𝐑𝐎𝐔𝐏 ⭕', url=f't.me/SonalModdingGod')
+                        InlineKeyboardButton('⛔ 𝐉𝐎𝐈𝐍 𝐌𝐀𝐈𝐍 𝐆𝐑𝐎𝐔𝐏 ⛔', url=f't.me/s3movieshd3request')
                     ]
                     ]
                 
